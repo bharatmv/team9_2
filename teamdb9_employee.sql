@@ -47,7 +47,7 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES ('e101','Mohil','prapanna','2055 nj27 edison','mohilp@gmail.com',34527127,30,'2019-01-01',1,'admin','1','e101admin'),('e102','anooj','kinagi','2055 nj27 edison/nj','kinagianooj@gmail.com',345174011,30,'2019-01-01',0,'operator','1','e102operator'),('e103','John','abraham','Juhu beach bombay','jb@gmail.com',345137478,30,'2019-01-03',0,'operator','1','e103operator'),('e104','Monil','jain','2055 nj 27 edison NJ','monilj@gmail.com',119029394,30,'2019-01-10',0,'operator','1','e104operator'),('e105','Shrishti','Jhabak','2055 nj 27 edison NJ','sjk@gmail.com',999888777,30,'2019-01-18',0,'operator','1','e105operator');
+INSERT INTO `employee` VALUES ('e101','Mohil','prapanna','2055 nj27 edison','mohilp@gmail.com',3457,30,'2019-01-01',1,'admin','1','e101admin'),('e102','anooj','kinagi','2055 nj27 edison/nj','kinagianooj@gmail.com',4011,30,'2019-01-01',0,'operator','1','e102operator'),('e103','John','abraham','Juhu beach bombay','jb@gmail.com',3478,30,'2019-01-03',0,'operator','1','e103operator'),('e104','Monil','jain','2055 nj 27 edison NJ','monilj@gmail.com',1194,30,'2019-01-10',0,'operator','1','e104operator'),('e105','Shrishti','Jhabak','2055 nj 27 edison NJ','sjk@gmail.com',9777,30,'2019-01-18',0,'operator','1','e105operator');
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
